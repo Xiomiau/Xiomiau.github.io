@@ -1,0 +1,255 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.scroll-container {
+    color:white;
+    font-size:2em;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.scroll-area {
+    min-width: 95vw;
+    min-height: 100vh;
+    background-color:black;
+    box-shadow: 4px 6px 20px 0px rgba(245, 145, 51, 0.42);
+    scroll-snap-type: x mandatory;
+
+}
+
+main {
+    overflow-x: hidden;
+    position: sticky;
+    display: flex;
+    
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 78, 146);
+}
+.welcome {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9,100px);
+    align-items: center;
+    background-image: url(https://images.hdqwalls.com/download/cgi-rendeer-purple-4k-8r-2560x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.welcome-descr{
+    background-color: #000000b7;
+    grid-column: 3/11;
+    grid-row: 4;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 20px;
+}
+
+.welcome-descr span {
+    color: rgb(200, 255, 134);
+}
+
+.mediaLeft {
+    grid-column: 1;
+    grid-row: 1/10;
+    width:120px;
+    height: auto;
+    box-shadow: 4px 6px 18px 0px rgba(250, 249, 248, 0.911);
+    position: fixed;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.mediaLeft:hover{
+    box-shadow: 4px 6px 24px 0px rgba(186,20,208,0.36);
+
+}
+
+.tec {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 3/10;
+    grid-row: 7;
+    list-style: none;
+    box-shadow: 2px 2px 10px 4px rgba(250, 249, 248, 0.911);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.tec:hover{
+    box-shadow: 4px 6px 24px 0px rgba(186,20,208,0.36);
+}
+
+.tec img {
+    width: 60%;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+.tec img:hover{
+    transform: rotate(16deg);
+    box-shadow: 4px 6px 18px 0px rgba(250, 249, 248, 0.911);
+
+}
+ .tec p {
+    grid-column: 3/10;
+    grid-row: 4;
+ }
+
+.icons {
+    list-style: none;
+    display: grid;
+    place-content: center;
+
+}
+
+.icons img {
+    opacity: .5;
+    width: 60%;
+    height: 60%;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.icons img:hover{
+    box-shadow: 4px 6px 24px 0px rgba(250, 249, 248, 0.911);
+    transform: rotate(16deg);
+
+}
+
+.titleWelcome{
+    grid-column: 4/10;
+    grid-row: 2;
+    text-shadow: -4px 4px 6px rgba(186,20,208,0.36);
+}
+
+.platzi {
+    background-image: url(https://i.redd.it/wmf4pf98d4l61.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoP {
+    margin: 50px;
+    width: 250px;
+    height: 100px;
+}
+.CursosContainer {
+    width: 50%;
+    background-color: hsla(208, 100%, 97%, 0.027);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.CursosContainer:hover {
+    box-shadow: 4px 4px 14px 0px rgb(152, 202, 63);
+
+}
+
+.profile {
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px 0px rgba(151, 202, 63, 0.582);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.profile a {
+    color:rgb(152, 202, 63);
+    text-decoration: none;
+
+}
+
+.CursosContainer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+.CursosContainer a:hover {
+    text-shadow: -2px 2px 4px rgba(242, 199, 248, 0.36);
+    transform: translatex(10px);
+}
+
+.CursosContainerF {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    width: 62%;
+    border-radius: 20px;
+}
+
+.CursosContainerF h2 {
+    text-align: center;
+}
+
+.CursosContainerF:hover{
+    box-shadow: 4px 4px 14px 0px rgb(249, 199, 197);
+}
+
+
+.frontend1 {
+    background-color: hsla(208, 100%, 97%, 0.027);
+    padding: 20px;
+    grid-column: 1/5;
+    grid-row: 3/9;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px 0 0 20px;
+    font-size: 18px;
+    width: fit-content;
+    height: 100%;
+    
+}
+
+.frontend2 {
+    padding-top: 55px;
+    background-color: hsla(208, 100%, 97%, 0.027);
+    width: fit-content;
+    grid-column: 6/8;
+    grid-row: 3/9;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.CursosContainerF a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.CursosContainerF11111111111111 a:hover {
+    text-shadow: -2px 2px 4px rgba(242, 199, 248, 0.36);
+    transform: translatex(10px);
+}
+.frontend img {
+    background-color:hsla(0, 0%, 67%, 0.349) ;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}

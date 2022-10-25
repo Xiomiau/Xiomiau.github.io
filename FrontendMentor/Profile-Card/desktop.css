@@ -1,0 +1,26 @@
+.container {
+    margin: 15% auto 0;
+    width: 25%;
+}
+
+.container-profile {
+    margin-top: 7%;
+}
+
+.container-userinfo {
+    padding-top: 5rem;
+}
+
+.container-userinfo--user-country {
+    margin-bottom: 2rem;
+}
+
+body {
+    background-position-x: -70%;
+    background-position-y: 120%;
+}
+
+.botomm {
+    background-position-x: 130%;
+    background-position-y: -140%;
+}

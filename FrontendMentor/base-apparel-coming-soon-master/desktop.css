@@ -1,0 +1,73 @@
+.hero-mobile {
+    display: none;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(9, 100px);
+
+}
+
+.hero-desktop {
+    background-image: url(/FrontendMentor/base-apparel-coming-soon-master/images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 1/10;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    grid-column: 1;
+    grid-row: 1/3;
+    margin: 5rem 10rem;
+}
+
+.container-text-button {
+    grid-row: 3/8;
+    margin: 5rem 10rem;
+    text-align: left;
+}
+.container-title {
+    grid-row: 1;
+    font-size: 6rem;
+    width: 300px;
+    text-align: left;
+    margin:0;
+    letter-spacing: 1.5rem;
+
+}
+
+.container-descr {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 2rem 0 4rem;
+    width: 460px;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.container-email {
+    grid-column: 1;
+    grid-row: 8;
+    margin: 7rem 0 0 1rem;
+    max-width: 447px;
+}
+
+.icon-error {
+    right: 10rem;
+}
+
+.error-text {
+    margin: .5rem 5rem 1rem 3rem;
+}
+footer {
+    grid-column: 1;
+    grid-row: 9;
+    width: fit-content;
+}
+
+

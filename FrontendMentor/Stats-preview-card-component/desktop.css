@@ -1,0 +1,77 @@
+.main-container {
+    margin: 13rem auto 0;
+    display: grid;
+    height: 445px;
+    padding-left: 4rem;
+    width: 115rem;
+
+
+}
+
+.img {
+    display: none;
+}
+.img-desk {
+    width: 530px;
+    height: 445px;
+    background-image: linear-gradient(
+        hsl(277, 64%, 45%, 0.500), 
+        hsla(277, 65%, 45%, 0.500)),
+    url(/FrontendMentor/Stats-preview-card-component/images/image-header-desktop.jpg);
+    grid-column: 2;
+    justify-self: end;
+
+}
+
+.main-container__title {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 4rem;
+    text-align: left;
+    width: 50rem;
+    height: fit-content;
+    padding-top: 7rem;
+}
+
+.main-container__descr {
+    width: 45rem;
+    grid-row: 1;
+    grid-column: 1;
+    height: fit-content;
+    margin-top: 17rem;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 3rem;
+}
+
+.container-stats {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    grid-row: 1;
+    grid-column: 1;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 35rem;
+    justify-self:start;
+}
+
+.container-stats-descr {
+    font-size: 2rem;
+    margin-right: 9rem;
+}
+
+.container-stats-descr span {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.container-stats p {
+    font-size: 2.5rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    font-family:'Inter', sans-serif;
+}

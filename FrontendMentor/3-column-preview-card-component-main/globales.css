@@ -1,0 +1,21 @@
+:root {
+    /* ### Primary --> */
+    --Bright-orange: hsla(31, 77%, 52%);
+    --Dark-cyan: hsla(184, 100%, 22%);
+    --Very-dark-cyan:hsla(179, 100%, 13%);
+    /* <!-- ### Neutral --> */
+    --Transparent-white:hsla(0, 0%, 100%, 0.75);   /*(paragraphs)*/
+    --Very-light-gray:hsla(0, 0%, 95%);             /* (background, headings, buttons)*/
+    
+    --fuente1: 'Big Shoulders Display', cursive;
+    --fuente2: 'Lexend Deca', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }

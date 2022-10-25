@@ -1,0 +1,26 @@
+@media (min-width:640px){
+    :root{
+        --White: hsl(0, 0%, 100%);
+        --Light-gray: hsl(212, 45%, 89%);
+        --Grayish-blue: hsl(220, 15%, 55%);
+        --Dark-blue: hsl(218, 44%, 22%);
+        }
+
+        .container{
+            margin: 0 auto;
+            width: 330px;
+        }
+        .img-desk{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        .img-container{
+            margin: 2rem;
+            
+        }
+        footer{
+            position: relative;
+            margin-left: 76rem;
+            margin-top: 2rem;
+        }
+}

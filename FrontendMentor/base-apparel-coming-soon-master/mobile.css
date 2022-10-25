@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+:root {
+--Desaturated-Red: hsl(0, 36%, 70%);
+--Soft-Red: hsl(0, 93%, 68%);
+--Dark-Grayish-Red: hsl(0, 6%, 24%);
+--Linear: 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+--Linear: 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+}
+
+
+.logo {
+    width: 150px;
+    height: 25px;
+    background-image: url(/FrontendMentor/base-apparel-coming-soon-master/images/logo.svg);
+    margin: 30px 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.hero-mobile {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.container-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    letter-spacing: .5rem;
+    color: var(--Dark-Grayish-Red);
+    margin: 50px 50px 0;
+}
+
+.container-title span {
+    color: var(--Desaturated-Red);
+    font-weight: 300;
+}
+
+.container-descr {
+    text-align: center;
+    color: var(--Desaturated-Red);
+    font-size: 1.6rem;
+    margin: 0 20px 60px;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+.container-email {
+    width: 80%;
+    position: relative;
+    margin: 20px auto 0; 
+}
+
+.container-email-input {
+    width: 100%;
+    border: 1px solid hsl(0, 80%, 86%);
+    padding: 1.5rem;
+    border-radius: 30px;
+    outline: none;
+}
+::placeholder {
+    color: hsla(0, 80%, 86%, 0.472);
+}
+
+
+.container-email-button {
+    position: absolute;
+    width: 21%;
+    padding: 1.2rem 0;
+    right: 0;
+    border-radius: 30px;
+    background: linear-gradient(135deg, rgb(245, 229, 229) 0%, hsl(0, 47%, 93%) 8%, rgba(248,191,191,1) 53%, rgba(238,140,140,1) 98%);
+    border: none; 
+    cursor: pointer;
+}
+
+footer {
+    width:fit-content;
+    margin: 30px auto;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Desaturated-Red);
+}
+
+.icon-error {
+    position: absolute;
+    right: 8rem;
+}
+.error-text {
+    color: var(--Soft-Red);
+    margin: .5rem 5rem 1rem 6rem;
+}
+
+.inactive {
+    display: none;
+}

@@ -1,0 +1,65 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #071231;
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/bg-desktop.png);
+    background-position-y: 400px; 
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.mainContainer {
+    position: relative;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: row ;
+    margin: 15% auto;
+}
+
+.sec1{
+    position: absolute;
+    width: 30%;
+    margin: 100px 5px 0;
+    margin-right: 15px;
+    bottom: -15px;
+}
+
+.sec2 {
+    position: absolute;
+    width: 60%;
+    margin: 100px 10px 0;
+    bottom: -15px;
+    right: 0;
+}
+
+.sec2 p:nth-child(1) {
+    text-align: left;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+
+.left {
+    position: absolute; 
+    right: 15px;
+    bottom: 60px;
+}
+
+.left span {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid #fcfcfc;
+    top: 40px;
+    right: -10px;
+}
+

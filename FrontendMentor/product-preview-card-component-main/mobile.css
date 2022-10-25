@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Primary*/
+
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+
+/* Neutral */
+
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+
+
+/* Font Size */
+--paragraph-size:1.4rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+    padding: 2rem;
+    background-color: var(--Cream);
+}
+.product-container{
+    height: 92vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem 1.5rem 0 0;
+    background-color: var(--White);
+    padding-bottom: 0;
+}
+
+.image-container img{
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.add-to-cart{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    width: 80%;
+    border-radius: 1rem;
+    border:none;
+    height: 5rem;
+    font-size: var(--paragraph-size);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin:0 2rem 0 2rem;
+    
+}
+
+.add-to-cart p{
+    padding: 1rem;
+}
+
+.text .p{
+    font-family:'Montserrat', sans-serif;
+    font-size: var(--paragraph-size);
+    color: var(--Dark-grayish-blue);
+    letter-spacing: .4rem;
+    margin: 2rem;
+    font-weight: 500;
+}
+
+.text .title{
+    margin: 1rem;
+
+    text-align: left;
+    font-size: 3rem;
+    line-height: .9;
+    font-family: 'Fraunces', serif;
+}
+.text .detail-product{
+    font-family:'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
+    font-size: 12px;
+    margin: 2rem;
+    line-height: 200%;
+    font-weight: 500;
+
+}
+.text .discount{
+    align-items: center;
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    color: var(--Dark-cyan);
+    font-size: 3rem;
+    margin: 2rem;
+
+}
+.text .original{
+    font-family:'Montserrat', sans-serif;
+    display: inline-block;
+    color: var(--Dark-grayish-blue);
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    
+    
+}
+
+.attribution{
+    font-family:'Montserrat', sans-serif;
+    color: lightcoral;
+}
+.attribution a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: lightcoral;
+    font-weight: bold;
+
+}
+footer{
+    position: absolute;
+    bottom: 1rem;
+}
+
+
+    

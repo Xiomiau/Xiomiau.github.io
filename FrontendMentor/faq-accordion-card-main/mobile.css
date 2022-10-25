@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+:root {
+--Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+--Soft-red: hsl(14, 88%, 65%);
+
+--Very-dark-grayish-blue: hsl(237, 12%, 33%);
+--Dark-grayish-blue: hsl(240, 6%, 50%);
+
+--Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body {height: 100vh;
+    background: linear-gradient(rgba(175,103,233,1) 26%, rgba(101,101,231,1) 100%);    
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 30% 0;
+}
+
+
+.headerImg-container{
+    position: relative;
+}
+
+
+.womanShadow {
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+}
+
+
+.woman{
+    width: 24rem;
+    height: 18rem;
+    background-image: url(/FrontendMentor/faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+}
+.shadow {
+    width: 24rem;
+    height: 15rem;
+    background-image: url(/FrontendMentor/faq-accordion-card-main/images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 11rem;
+}
+
+.title {
+    text-align: center;
+    margin: 9rem 0 3rem;
+}
+
+
+.askContainer {
+    padding: 2rem;
+    margin: 5rem auto 1rem;
+    width: 33rem;
+    height: auto;
+    font-size: 1.5rem;
+    background-color: var(--Light-grayish-blue);
+    border-radius: 2rem;
+}
+
+
+.question {
+    margin-bottom: 3rem;
+    border-bottom: 0.1em solid var(--Dark-grayish-blue);
+}
+
+
+summary,p {
+    margin-bottom: 2rem;
+}
+
+
+details[open] > summary:first-of-type{
+    font-weight: bold;
+}
+
+summary:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+
+}
+
+
+summary::marker{
+    color: var(--Soft-red);
+}
+
+footer{
+    text-align: center;
+}
+
+footer a {
+    color: var(--Soft-red);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="/FrontendMentor/intro-component-with-signup-form-master/mobile.css">
+  <link rel="stylesheet" href="/FrontendMentor/intro-component-with-signup-form-master/desktop.css" media="(min-width:1440px)">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  
+</head>
+<body>
+
+  <main class="container">
+
+      <section class="container-text">
+          <h1 class="container-title"> Learn to code by watching others</h1>
+          <p class="container-descr"> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+      </section> 
+
+<section class="form-container">
+
+  <div class="form-container-purple">
+    <p> <span>Try it free 7 days</span> then $20/mo. thereafter</p>
+  </div>
+
+  <form>
+    <!-- INPUT NAME -->
+    
+      <input autofocus required placeholder="First Name" type="text" name="firstName" id="firstName">
+      <!-- ERROR CONTAINER -->
+      <div id="firstNameError" class="error-container">  
+        <!-- <img id="icon-error" class="error-icon" src="/images/icon-error.svg" alt="icon error">
+        <p id="nameError" class="text-error">First name cannot be empty</p> -->
+      </div> 
+
+    <!-- INPUT LAST-NAME -->
+    <input required placeholder="Last Name " type="text" name="lastName" id="lastName">
+    <div id="lastNameError" class="error-container"> </div>
+    
+
+    <!-- INPUT EMAIL -->
+    <input required placeholder="Email Address" type="email" name="emailAdress" id="emailAdress">
+    <div id="emailError" class="error-container"></div>
+
+          <!-- INPUT PASSWORD -->
+          <input required placeholder="Password" type="password" name="password" id="password">
+          <div id="passwordError" class="error-container"> </div>
+    
+
+  <button id="button" type="submit">Claim your free trial</button> 
+
+  <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+  </form>
+</section>
+  
+  </main>
+
+  <script src="/FrontendMentor/intro-component-with-signup-form-master/main.js"></script>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Xiomiau">Xiomiau</a>.
+    </p>
+  </footer>
+</body>
+</html>

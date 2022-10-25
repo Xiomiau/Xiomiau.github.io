@@ -1,0 +1,29 @@
+.cards-container {
+    margin: 5% auto 0;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 350px 350px ;
+    gap: 20px;
+    place-content: center;
+    max-width: 900px;
+}
+
+.card {
+    margin: 0;
+    max-height: 700px;
+}
+.card1{
+    grid-column: 1/3;
+}
+
+.card3 {
+    grid-column: 1/2;
+}
+
+.card4 {
+    grid-column: 2/4;
+}
+.card5 {
+    grid-column: 4;
+    grid-row: 1/4;
+}

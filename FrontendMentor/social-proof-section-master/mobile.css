@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--fuente);
+}
+
+:root {
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+
+
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+
+--fuente:'League Spartan', sans-serif;
+}
+
+.sup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 2rem;
+}
+
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem 0 0;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+}
+
+
+.review {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: 500;
+}
+
+
+.review-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: var(--Light-Grayish-Magenta);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+}
+
+
+.img-stars {
+    margin-bottom: .5rem;
+}
+
+.buyer-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buyer-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    font-weight: 500;
+    padding: 3rem 0 3rem 3rem;
+    border-radius: 1rem;
+    margin: 2rem 0 1rem;    align-items: center;
+}
+
+
+.buyer-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.name {
+    grid-column:2/4;
+    margin:auto 1rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+
+.verify {
+    color: var(--Soft-Pink);
+    font-size: 1.2rem;
+    margin-top: .5rem;
+
+}
+
+
+.descr {
+    grid-column: 1/6;
+    grid-row: 2/4;
+    font-size: 1.5rem;
+    padding-right: 2.8rem;
+    line-height: 1.6rem;
+    margin-top: 1rem;
+}
+
+
+footer {
+    width: fit-content;
+    color: var(--Soft-Pink);
+    margin: 1rem auto;
+}

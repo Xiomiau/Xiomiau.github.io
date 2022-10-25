@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/FrontendMentor/interactive-rating-component-main//mobile.css">
+  <link rel="stylesheet" href="/FrontendMentor/interactive-rating-component-main//desktop.css" media="(min-width:1440px)">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  <section class="card-container ratingShow">
+    <div class="card">
+      <div class="star-container">
+        <div class="star"></div>
+
+      </div>
+      <h1 class="card-title">How did we do?</h1>
+      <P class="card-descr">  Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! 
+      </P>
+
+        <div class="card-rating-container">
+          <div class="card-rating one">1</div>
+          <div class="card-rating two">2</div>
+          <div class="card-rating three">3</div>
+          <div class="card-rating four">4</div>
+          <div class="card-rating five">5</div>
+        </div>
+
+        <button class="card-button submit">Submit</button>
+
+    </div>
+  </section>
+
+  <!-- Rating state end -->
+
+
+
+  <!-- Thank you state start -->
+
+  <section class="thanksCard inactive" >
+    <div class="sent"></div>
+    <div class="card-container-selection">You selected <span class="number"></span> stars out of 5</div>
+
+  <h2 class="card-container-thank">Thank you! 🙌</h2>
+
+  <p class="card-container-descr">We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+  </section>
+
+  <!-- Thank you state end -->
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Xiomiau">Xiomiau</a>.
+  </footer>
+
+  <script src="/FrontendMentor/interactive-rating-component-main/main.js"></script>
+</body>
+</html>

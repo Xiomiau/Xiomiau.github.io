@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Red Hat Display', sans-serif;
+
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --Pale-blue:hsl(228, 65%, 95%);
+    --Bright-blue:hsl(245, 75%, 52%); 
+    --Very-pale-blue:hsl(225, 100%, 98%);
+    --Desaturated-blue: hsla(224, 24%, 88%, 0.767);
+    --Desaturated-blue2: hsl(224, 23%, 55%); 
+    --Dark-blue:hsl(223, 47%, 23%);
+}
+
+body {
+    padding: 6rem 2rem 0;
+    background-color: var(--Pale-blue);
+    background-image: url(/FrontendMentor/order-summary-component-/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color:var(--Very-pale-blue);
+    border-radius: 2rem;
+}
+
+.main-container--dancing {
+    width: 100%;
+    height: 35%;
+    background-image: url(/FrontendMentor/order-summary-component-/images/illustration-hero.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 2rem 2rem 0 0;  
+}
+
+.main-container__title {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.main-container__subtitle {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color:var(--Desaturated-blue2);
+    line-height: 2.5rem;
+}
+
+.plan-info {
+    width: 80%;
+    background-color:var(--Desaturated-blue);
+    display: flex; 
+    padding: 1rem;  
+    align-items: center; 
+    border-radius: 1rem;
+
+}
+
+.plan-info__plan {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.plan-info--duration {
+    color:black;
+    font-weight: 900;
+    font-size: 1.5rem ;
+}
+
+.plan-info--price {
+    color: var(--Desaturated-blue2);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.main-container a {
+    text-decoration: underline;
+    color: var(--Bright-blue);
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+button {
+    width: 90%;
+    margin-top: 3rem;
+    background-color: var(--Bright-blue);
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    color: var(--Pale-blue);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.main-container p {
+    color: var(--Desaturated-blue2);
+    font-weight: 900;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.plan-info a, p {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1rem;
+    color: var(--Dark-blue);
+    text-align: center;
+}
+
+footer a {
+    color: var(--Bright-blue);
+    text-decoration: dotted;
+    font-weight: bold;
+}

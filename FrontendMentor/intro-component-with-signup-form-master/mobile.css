@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+--Red: hsla(0, 100%, 74%, 0.863); 
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--Dark-Blue: hsl(249, 10%, 26%); 
+--Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+body {
+    background-color: var(--Red);
+    background-image: url(/FrontendMentor/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+
+.container-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.container-descr {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.form-container-purple {
+    width: 100%;
+    height: 70px;
+    background-color: var(--Blue);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 8px 0px -1px rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+
+.form-container-purple p {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+
+.form-container-purple span {
+    font-weight: 700;
+}
+
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 15px;
+    box-shadow: 2px 6px 0px -1px rgba(140, 143, 141, 0.548);
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid rgb(212, 212, 212); 
+}
+
+.error-container {
+    position: relative;
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+.error-icon { 
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    
+}
+
+form p {
+    font-size: 10px;
+    color: var(--Red);
+    position: absolute;
+    right: 15px;
+    top: -7px;
+    
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+
+button {
+    background-color: var(--Green);
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 2px 6px 0px -1px rgba(58, 131, 76, 0.548);
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.terms {
+    font-size: 10px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    position: static;
+}
+
+
+.terms span {
+    color: var(--Red);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+footer {
+    font-size: 12px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: var(--Blue);
+    font-weight: bold;
+}
+
+.inactive {
+    /* display: none; */
+}
+

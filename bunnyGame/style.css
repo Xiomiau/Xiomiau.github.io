@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+  color: white;
+}
+.phone {
+  counter-reset: Puntos;
+  height: 600px;
+  width: 300px;
+  position: relative;
+  border: 8px solid rgb(80, 2, 80);
+  border-radius: 40px;
+  background-color: lightblue;
+  box-shadow: 0 10px 20px rgba(230, 74, 183, 0.466) ;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  font-size: 25px;
+  left: 80px;
+  top: 20px;
+  color: coral;
+}
+h1::after {
+  content: counter(Puntos);
+}
+
+/* Conejo 1 */
+.layer-1 {
+  position: absolute;
+  z-index: 1;
+  height: 450px;
+  width: 80px;
+  bottom: 0;
+  right: 60px;
+
+  animation-name: layer;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes layer {
+  0% {
+      transform: translateY(50px);
+  }
+  50%{
+
+  }
+
+  100% {
+
+  }
+
+}
+
+button{
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  left: 20px;
+  appearance: none;
+  cursor: pointer;
+  z-index: 1;
+  border: 0;
+  background-color: transparent;
+  }
+
+  /* button{
+    appearance: none;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+  } */
+
+  button:focus{
+    counter-increment: Puntos ;
+  }
+
+  .h1::after{
+    content: counter(score);
+  }
+
+/* Conejo 2 */
+.layer-2 {
+  z-index:2 ;
+  position: absolute;
+  height: 450px;
+  width: 80px;
+  bottom: 0;
+  left: 60px;
+  animation-name: layer;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.layer-3 {
+  position: absolute;
+  z-index:3 ;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 220px;
+  height: 400px;
+  background: rgb(105, 65, 5);
+  border-radius: 20px 20px 0 0;
+}
+
+/* Conejo 3*/
+.layer-4 {
+  position: absolute;
+  z-index:4 ;
+  bottom: 40px;
+  margin: 0 auto;
+  width: 80px;
+  height: 300px;
+  left: 60px;
+
+  animation-name: layer;
+  animation-duration: 1600ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+.layer-5 {
+  position: absolute;
+  z-index: 5;
+  left: -100px;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 200px;
+  height:285px;
+  background: #694105;
+  border-radius: 20px 20px 0 0;
+
+}
+
+/* Conejo */
+.layer-6 {
+  position: absolute;
+  z-index: 6;
+  bottom: 40px;
+  margin: 0 auto;
+  width: 80px;
+  height: 200px;
+  right: 50px;
+
+  animation-name: layer;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+.layer-7 {
+  position: absolute;
+  z-index:7 ;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 200px;
+  height: 185px;
+  background: #694105;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.layer-8 {
+  position: absolute;
+  z-index: 8;
+  width: 100px;
+  height: 100px;
+  background: rgb(240, 238, 238);
+  bottom:-10px;
+  left: -30px;
+  border-radius: 50%;
+}
+
+.cloud {
+  position: absolute;
+  background: rgb(240, 238, 238);
+  width: 100px;
+  height: 100px;
+  bottom:-40px;
+  left: 30px;
+  border-radius: 50%;
+   z-index: 8;
+}
+
+.cloud2 {
+  position: absolute;
+  background: rgb(240, 238, 238);
+  width: 100px;
+  height: 100px;
+  bottom:-40px;
+  right: 10px;
+  border-radius: 50%;
+   z-index: 8;
+}
+
+.cloud3 {
+  position: absolute;
+  background: rgb(240, 238, 238);
+  width: 100px;
+  height: 100px;
+  bottom:5px;
+  right: -50px;
+  border-radius: 50%;
+   z-index: 8;
+}
+/* --------cesped------------ */
+.cesped0 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: rgb(10, 161, 43);
+  bottom: -20px;
+  z-index: 7;
+  border-radius: 50%;
+  left: 40px;
+}
+
+.cesped1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(10, 161, 43);
+  bottom: 40px;
+  z-index: 7;
+  border-radius: 50%;
+  left: 120px;
+}
+
+.cesped2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(10, 161, 43);
+  bottom: 0px;
+  z-index: 7;
+  border-radius: 50%;
+  right: 40px;
+}
+.cesped3 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(10, 161, 43);
+  bottom:-10px;
+  z-index: 7;
+  border-radius: 50%;
+  right: 100px;
+}
+/* --------cesped fin ------------ */
+
+
+.layer-9 {
+  position: absolute;
+  z-index: 9;
+}
+
+.layer-10 {
+  position: absolute;
+  z-index: 10;
+}
+
+
+.left-ear--outer {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 50px;
+  left: 10px;
+}
+
+.right-ear--outer {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 50px;
+  right: 10px;
+}
+
+.left-ear--inner {
+  position: absolute;
+  background: rgb(240, 185, 185);
+  border-radius: 100%;
+  width: 9px;
+  height: 50px;
+  left: 16px;
+  top: 11px;
+}
+
+.right-ear--inner {
+  position: absolute;
+background: rgb(240, 185, 185);  border-radius: 100%;
+  width: 9px;
+  height: 50px;
+  top:8px;
+  right: 15px;
+}
+
+.head {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30px;
+}
+
+.head__eye {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(63, 58, 58);
+    position: absolute;
+
+    animation-name: blink ;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    transform: scaleY(1);
+
+  }
+
+  5% {
+    transform: scaleY(.25);
+  }
+
+  10% {
+    transform: scaleY(1);
+  }
+}
+
+.head__eye--left {
+  left: 25px;
+  top: 10px;
+}
+
+.head__eye--right {
+  right: 25px;
+  top: 10px;
+}
+
+.verde {
+  width: 100%;
+  height: 30px;
+  background-color: #53e253;
+  border-radius: 20px 20px 0 0;
+}
+.patron {
+position: absolute;
+top: 25px;
+width: 100%;
+height: 25px;
+background-color: #000000;
+opacity: 1;
+background-image:  linear-gradient(135deg, #53e253 25%, transparent 25%), linear-gradient(225deg, #53e253 25%, transparent 25%), linear-gradient(45deg, #694105 25%, transparent 25%), linear-gradient(315deg, #694105 25%, #382101 25%);
+background-position:  14px 0, 14px 0, 0 0, 0 0;
+background-size: 25px 25px;
+background-repeat: repeat;
+}

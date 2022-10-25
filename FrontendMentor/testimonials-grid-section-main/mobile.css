@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+:root {
+
+/*  Primary */
+
+--Moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+ /* Neutral */
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+
+
+}
+
+body {
+    background-color: var(--Light-gray);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto 0;
+}
+
+.card {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 60px 200px;
+    grid-template-rows: 40px 0;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.profile {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    border: 1px solid rgb(253, 252, 252);
+    background-position: center;
+}
+
+.name,
+.status {
+    grid-column: 2/3;
+}
+
+.status {
+    font-size: .8rem;
+    opacity: .5;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    opacity: .7;
+}
+
+.card1 {
+    background-color: var(--Moderate-violet);
+    color: var(--White);
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top right;
+
+}
+
+
+.profile1 {
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/image-daniel.jpg);
+}
+
+.card2 {
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+
+}
+
+.profile2 {
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/image-jonathan.jpg);
+
+}
+
+.card3, .card5 {
+    color: var(--Very-dark-blackish-blue);
+    background-color: var(--White);
+}
+
+.profile3 {
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/image-jeanette.jpg);
+}
+
+.card4 {
+    background-color: var(--Very-dark-blackish-blue);
+    color: var(--White);
+}
+
+.profile4 {
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/image-patrick.jpg);
+}
+
+.profile5 {
+    background-image: url(/FrontendMentor/testimonials-grid-section-main/images/image-kira.jpg);
+}
+
+footer {
+    color: var(--Very-dark-blackish-blue);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Very-dark-blackish-blue);
+    width: fit-content;
+    margin: 1rem auto;
+}

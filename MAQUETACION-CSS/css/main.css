@@ -1,0 +1,285 @@
+
+.index {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+a {
+    text-decoration: none;
+    display:inline ;
+    color:white;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: rgba(103, 3, 112, 0.822);
+}
+
+header .icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 111px;
+    background-color: rgb(50, 1, 54);
+
+}
+
+.logo-container {
+    margin-left: 50px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+.profile a {
+    font-size: 20px;
+    border-bottom:  3px solid rgb(243, 238, 238);
+}
+
+h1 {
+    color: white;
+    top: 350px;
+    left: 600px;
+    font-size: 40px;
+    width: 800px;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-color: antiquewhite;
+    background-image: url(/MAQUETACION-CSS/assets/images/cover-large.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+.main-container section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.entry {
+    width:120px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50, 1, 54);
+    color: white;
+    letter-spacing: 4px;
+}
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: antiquewhite;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 80%;
+
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-container p {
+    margin-bottom: 55px;
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    border-bottom: 1px solid rgb(161, 160, 160) ;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button {
+    padding:10px 15px;
+    border: 1px solid purple;
+    color: purple;
+    margin-top: 100px;
+}
+
+.blogs-posts-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+    
+}
+
+.blogs-posts-container .post-container img {
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(103, 3, 112, 0.822);
+    border-top: 35px solid rgb(50, 1, 54) ;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid rgb(116, 115, 115);
+    color: black;
+    padding-bottom: 25px;
+}
+
+.blogpost-main-container h1 {
+    color: black;
+    letter-spacing: 0;
+    text-align: left;
+    font-size: 35px;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(179, 176, 176);
+    text-align: center;
+    padding-bottom:50px ;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+.container-profile {
+    background-color: rgba(247, 224, 248, 0.678);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    place-content: center;
+}
+
+.container-profile img {
+    margin: 50px 50px 30px 200px;
+    width: 45%;
+}
+
+.project-section h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+.project-section p:nth-child(1) {
+    font-weight: bold;
+}
+.container-profile-text {
+    width: 50%;
+}
+.container-profile-text h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container-profile-text p {
+    font-size: 20px;
+}
+
+.proyect-container  {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin: 0 20px 50px;
+}

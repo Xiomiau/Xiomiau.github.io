@@ -1,0 +1,56 @@
+body {
+    background-position-y: -30rem;
+    background-position-x: -40rem;
+}
+.logo {
+    margin-left: 5rem ;
+    width: 300px;
+}
+
+.container {
+    width:fit-content ;
+    display: flex;
+    flex-direction: row;
+    margin: 5rem auto 0;
+}
+
+.container-image {
+    width: 800px;
+    height: 600px;
+
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 150px);
+    margin-left: 3rem;
+    width: 500px;
+    height: fit-content;
+}
+
+.container-title {
+    font-size: 4rem;
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: left;
+
+}
+
+.container-descr {
+    grid-column: 1/3;
+    text-align: left;
+
+}
+
+.container-button {
+    grid-column: 1/3;
+    width: 220px;
+    height: 55px;
+    font-size: 2rem;
+
+}
+
+.socialmedia {
+    margin: 0 7rem 1rem auto;
+}

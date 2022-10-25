@@ -1,0 +1,59 @@
+.main-container {
+    margin: 9rem 5rem 0 5rem;
+}
+
+
+.cyancard {
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+.redcard {
+    grid-column: 2;
+    grid-row: 2/3;
+}
+
+.orangecard {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.bluecard {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin-left: 2rem;
+}
+
+.cards-container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 35rem 35rem 35rem;
+    grid-template-rows: 150px 120px 130px;
+}
+
+.header {
+    margin-bottom: 7rem;
+    grid-column:  1/4;
+}
+
+.header1 {
+    font-size: 2.7rem;
+    font-weight: 200;
+}
+
+.header2 {
+    font-size: 2.8rem;
+}
+
+.header3 {
+    font-size: 1.5rem;
+    padding: 1rem 30rem;
+}
+
+.card-color {
+    margin-top: 7rem;
+}
+
+footer {
+    font-size:1.5rem;
+}

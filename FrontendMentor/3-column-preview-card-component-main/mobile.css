@@ -1,0 +1,111 @@
+@import "globales.css";
+
+
+
+
+.main-container {
+    margin: 6rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.card {
+    padding: 4rem 4rem 1rem;
+}
+
+.card__title {
+    font-family: var(--fuente2);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: -2.5px;
+    font-weight: 545;
+    color: var(--Very-light-gray);
+}
+
+.card--desc {
+    font-family: var(--fuente2);
+    font-size: 1.2rem;    
+    line-height: 2rem;
+    color: var(--Transparent-white);
+    font-weight: 400;
+    padding: 2rem 8rem 2rem 0rem;}
+
+.sedan {
+    background-color: var(--Bright-orange);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.sedan-ico {
+    width: 40px;
+    height: 40px;
+    background-image: url(/FrontendMentor/3-column-preview-card-component-main/images/icon-sedans.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.btn-sed {
+    color: var(--Bright-orange);
+}
+
+.suvs {
+    background-color: var(--Dark-cyan);
+}
+
+.suvs-ico {
+    width: 40px;
+    height: 40px;
+    background-image: url(/FrontendMentor/3-column-preview-card-component-main/images/icon-suvs.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn-suv {
+    color: var(--Dark-cyan);
+}
+
+.luxury {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.lux-ico {
+    width: 40px;
+    height: 40px;
+    background-image: url(/FrontendMentor/3-column-preview-card-component-main/images/icon-luxury.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn-lux {
+    color: var(--Very-dark-cyan);
+}
+button {
+    cursor: pointer;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    border-radius: 4rem;
+    margin: 2rem 0;
+    height: 4rem;
+    width: 50%;
+    font-family: var(--fuente2);
+    font-weight: 700;
+}
+
+.attribution{
+    width: fit-content;
+    margin: 0 auto;
+    font-family: var(--fuente1);
+    font-size: 1.2rem;
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--Bright-orange);
+}
+
+

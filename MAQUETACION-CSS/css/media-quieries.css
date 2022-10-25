@@ -1,0 +1,6 @@
+@media (max-width:900px) {
+    .blogs-main-news {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+}

@@ -1,0 +1,117 @@
+
+.container {
+    display: grid;
+    grid-template-columns:  400px 600px;
+    grid-template-rows: repeat(8, 50px);
+    margin: 11rem auto 0;
+}
+
+.container-img {
+    border-radius: 1rem 0 0 1rem;
+}
+.card {
+    display: grid;
+    grid-template-columns:  500px 600px;
+    grid-template-rows: repeat(8, 50px);
+}
+
+.container-img {
+    grid-column: 1;
+    grid-row: 1/3;
+    height: 400px;
+    width: 500px;
+    background-size: contain;
+}
+
+.container-title {
+    grid-column: 2;
+    font-size: 1.5rem;
+    margin: 2rem 6rem 0 0;
+    padding-bottom: 3rem;
+}
+
+.container-sub {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 1rem;
+}
+
+.profile, .share-mobile {
+    display: none;
+}
+.profile-desktop {
+    display: grid;
+    grid-row: 7;
+    grid-column: 2;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 60px 230px 100px;
+    column-gap: 30px;
+    place-content: center;
+    letter-spacing: 0;
+    height: 80px;
+}
+
+.profile-photo {
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+}
+
+.desktop {
+width: 50px;
+height: 50px;
+margin-left: 3rem;
+}
+.share-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: var(--Very-Dark-Grayish-Blue); 
+    grid-column: 2;
+    justify-items: center;
+    height: 50px;
+    width: 300px;
+    border-radius: 1rem;
+    position: relative;
+    left: 22rem;
+    bottom: -11rem;
+
+}
+
+.share-desktop a {
+    padding: 1rem .9rem;
+    color: var(--Light-Grayish-Blue) ;
+}
+
+.share-desktop .sharep {
+    padding: 1rem .5rem;
+    letter-spacing: .5rem;
+    color: var(--Light-Grayish-Blue) ;
+    text-transform: uppercase;
+}
+
+.triangle-down {
+    position: absolute;
+    top: 2.8rem;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid var(--Very-Dark-Grayish-Blue);
+}
+
+.inactive {
+    display: none;
+}
+
+@media  (min-width:1441px) {
+
+    .container {
+        max-width: 1100px;
+    }
+
+    .card {
+        max-width: 1100px;
+    }
+}
+

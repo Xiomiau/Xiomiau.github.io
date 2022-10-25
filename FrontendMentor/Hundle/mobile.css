@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+--fuente1: 'Open Sans', sans-serif;
+--fuente2: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(/FrontendMentor/Hundle/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color:var(--Violet);
+    background-size: cover;
+    background-position-y: -17rem;
+    background-position-x: -10rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url(/FrontendMentor/Hundle/huddle-landing-page-with-single-introductory-section-master/images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 60px;
+    margin: 3rem 3rem 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container-image {
+    background-image: url(/FrontendMentor/Hundle/huddle-landing-page-with-single-introductory-section-master/images/illustration-mockups.svg);
+    width: 30rem;
+    height: 22rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+.container-title {
+    font-size: 2.5rem;
+    font-family: var(--fuente2);
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-descr {
+    font-family: var(--fuente2);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1rem .5rem;
+    margin-bottom: 2rem;
+}
+
+.container-button {
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 3rem;
+    color: var(--Violet);
+
+}
+
+.socialmedia {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+footer {
+    font-family: var(--fuente1);
+    width: fit-content;
+    margin: 1rem auto;
+    color: var(--Soft-Magenta);
+    font-size: 1.1rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Soft-Magenta);
+    font-weight: bold;
+}

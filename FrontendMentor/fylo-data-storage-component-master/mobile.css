@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--Pale-Blue: hsl(243, 100%, 93%); 
+--Grayish-Blue: hsl(229, 7%, 55%);
+--Dark-Blue: hsl(228, 50%, 24%);
+--Very-Dark-Blue: hsl(229, 40%, 19%);
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    color: var(--Pale-Blue);
+}
+
+body {
+    height: 80%;
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/bg-mobile.png);
+    background-size: cover;
+}
+.sec1 {
+    width: 70%;
+    background-color: var(--Dark-Blue);
+    margin: 100px auto 0;
+    border-radius: 20px 80px 20px 20px;
+}
+
+.logo {
+    width: 110px;
+    height: 100px;
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+    margin-left: 30px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:left;
+    padding-bottom: 25px ;
+    margin-left: 20px;
+}
+
+.iconContainer li {
+    background-color: #081230;
+    margin: 5px 5px 0 5px;
+}
+
+.documentIco {
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/icon-document.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.fileIco {
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/icon-folder.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-position: center;
+} 
+
+.upIco {
+    background-image: url(/FrontendMentor/fylo-data-storage-component-master/images/icon-upload.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.sec2 {
+    position: relative;
+    width: 70%;
+    height: 150px;
+    background-color: var(--Dark-Blue);
+    margin: 10px auto 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.sec2 p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.sec2 p span {
+    font-weight: bold;
+}
+
+.bar {
+    position: relative;
+    margin: 20px auto 10px;
+    width: 90%;
+    height: 15px;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 25px;
+    display: flex;
+}
+
+.barContainer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.zerogb{
+    position: absolute;
+    font-weight: bold;
+}
+
+.milgb {
+    position: absolute;
+    width: fit-content;
+    right: 5%;
+    font-weight: bold;
+}
+
+.barCircle {
+    position: absolute;
+    background-color: rgb(250, 246, 239);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    right: 20%;
+    top: 1px;
+}
+
+.use {
+    background: linear-gradient(90deg, rgba(255,163,153,1) 35%, rgba(255,77,151,1) 100%);
+    border-radius: 25px;
+    width: 80%;
+    height: 14px;
+}
+
+.left {
+    margin: 40px auto;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    height: 60px; 
+    color: rgb(153, 152, 152);
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.left span {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 10px;
+    width: fit-content;
+    margin: 50px auto;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

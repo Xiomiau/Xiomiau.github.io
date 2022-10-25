@@ -1,0 +1,33 @@
+body {
+    background-image: url(/order-summary-component-/images/pattern-background-desktop.svg);
+    background-size: 100%;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 25%;
+    
+}
+
+.main-container--dancing {
+    background-size: cover;
+}
+
+.main-container__title {
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.main-container__subtitle {
+    font-size: 2rem;
+    padding: 0 3rem 2rem;
+    line-height: 3rem;
+}
+.plan-info img {
+    padding-right: 1.5rem;
+}
+
+button {
+    box-shadow: -2px 7px 20px -3px rgba(0,0,0,0.55);
+    margin-bottom: 2rem;
+}

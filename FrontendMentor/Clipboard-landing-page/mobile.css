@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: rgb(76, 84, 93);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+.seccion1 {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/bg-header-mobile.png);
+    width: 100%;
+    height: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+}
+
+.logo {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo.svg);
+    width: 121px;
+    height: 126px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.titleSec1, .titleSec2, .titleSec3, .titleSec5 {
+    text-align: center;
+    font-size: 30px;
+    padding: 77px 30px 15px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.descrSec1, .descrSec2, .descrSec5 {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    padding: 27px 12px;
+}
+
+.iosBtn {
+    width: 250px;
+    height: 50px;
+    background-color: var(--Strong-Cyan);
+    border: none;
+    color: white;
+    border-radius: 40px;
+    margin:20px 75px ;
+    box-shadow:1px 3px 9px 4px rgba(0,0,0,0.20);
+        cursor: pointer;
+
+}
+
+.macBtn {
+    width: 250px;
+    height: 50px;
+    background-color: var(--Light-Blue);
+    border: none;
+    color: white;
+    border-radius: 40px;
+    margin:20px 75px ;
+    box-shadow: 1px 3px 9px 4px rgba(0,0,0,0.20);
+    cursor: pointer;
+}
+/* --------------------------SECTION 2 --------------------------- */
+
+.section2 {
+    height: 1090px;
+
+}
+
+.desc2 {
+    margin-bottom: 50px;
+}
+
+.pcImg {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/image-computer.png);
+    width: 300px;
+    height: 241px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+
+.descrSec2 {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    padding: 5px 12px;
+}
+
+.subtitleSec2, .subtitleSec3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 30px 0;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.seccion3 {
+    width: 100%;
+    height: 1500px;
+}
+
+.descrSec3 {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    margin-bottom: 35px auto 65px;
+    padding: 0 10;
+}
+
+.sec3Uno {
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    margin-bottom: 35pz auto 65px;
+    padding: 0 10;
+}
+
+.mobileTabletImg {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/image-devices.png);
+    width: 310px;
+    height: 185px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px auto 0;
+}
+
+.paperImg {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-blacklist.svg);
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px auto 20px;
+}
+
+.AImage{
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-text.svg);
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px auto 10px;
+}
+
+.eyeImg {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-preview.svg);
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px auto 0;
+}
+
+.sub3 {
+    margin: 20px;
+}
+
+.section4 {
+    width: 100%;
+    height: 600px;
+
+}
+
+.google {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo-google.png);
+    width: 150px;
+    height: 43px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 130px auto 0;
+}
+
+.ibm {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo-ibm.png);
+    width: 120px;
+    height: 49px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.microsoft {
+    background-image: url(/Clipboard-landing-page/images/logo-microsoft.png);
+    width: 150px;
+    height: 43px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.hp {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo-hp.png);
+    width: 125px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.vectorG {
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo-vector-graphics.png);
+    width: 125px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.ico {
+    margin-bottom: 70px;
+}
+
+.macDos {
+    margin-bottom: 170px;
+}
+
+.section6 {
+    width: 100%;
+    height: 500px;
+    background-color: hsl(0, 0%, 95%); 
+    padding-top: 60px;
+}
+
+
+
+.miniLogo {
+    width: 53px;
+    height: 53px;
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/logo.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.menu {
+    width: fit-content;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.menu li {
+    text-align: center;
+    margin: 20px ;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    cursor: pointer;
+}
+
+.redes {
+    display: flex;
+    width: fit-content;
+    height: 100px;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.fb {
+    width: 30px;
+    height: 30px;
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-facebook.svg);
+    margin-right: 25px;
+}
+
+.tw {
+    width: 30px;
+    height: 30px;
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-twitter.svg);
+    margin-right: 25px;
+
+}
+
+.inst {
+    width: 30px;
+    height: 30px;
+    background-image: url(/FrontendMentor/Clipboard-landing-page/images/icon-instagram.svg);
+}
+
+.icoR {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: fit-content;
+    margin: 15px auto;
+    color: rgb(112, 7, 86);
+    font-size: 15px;
+}
+
+footer a {
+    color: rgb(112, 7, 86);
+    font-weight: bold;
+}

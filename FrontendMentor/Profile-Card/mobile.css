@@ -1,0 +1,146 @@
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue:hsl(229, 23%, 23%);
+    --Dark-grayish-blue:hsla(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --fuente:'Kumbh Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Dark-cyan);
+    background-image: url(/FrontendMentor/Profile-Card/images/bg-pattern-top.svg);
+    background-position-x: 110%;
+    background-position-y: 150%;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    margin: 40% auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 45vh;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.container-portada {
+    background-image: url(/FrontendMentor/Profile-Card/images/bg-pattern-card.svg);
+    width: 100%;
+    height: 40%;
+    border-radius: 1rem 1rem  0 0;
+    margin-bottom: 2rem;
+
+}
+
+.container-profile {
+    position: absolute;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.container-profile div {
+    background-image: url(/FrontendMentor/Profile-Card/images/image-victor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.container-userinfo {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width:100% ;
+    align-items: center;
+}
+
+.container-userinfo--user-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.container-userinfo--user-name span {
+    color: var(--Dark-grayish-blue);
+    font-weight: normal;
+}
+
+.container-userinfo--user-country{
+    font-weight: normal;
+    color: var(--Dark-gray);
+    margin: 1rem 0 ;
+    font-size: 1.3rem;
+}
+
+.container-usser-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border-top: .5px solid var(--Dark-gray);
+    ;
+
+}
+
+.container-usser-stats--stats {
+    align-items: center;
+    margin: 8% 6% 0;
+}
+
+.container-usser-stats--stats :nth-child(1) {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: .5rem;
+}
+
+.stats :nth-child(2) {
+    color: var(--Dark-gray);
+}
+
+.botomm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/FrontendMentor/Profile-Card/images/bg-pattern-bottom.svg);
+    background-position-x: -30%;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    
+}
+
+footer {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

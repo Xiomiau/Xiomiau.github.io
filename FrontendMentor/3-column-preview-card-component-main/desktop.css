@@ -1,0 +1,66 @@
+@import "globales.css";
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 25vh auto 1rem;
+}
+
+.card {
+    width: 24rem;
+    height: 37rem;
+}
+
+.sedan {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.luxury {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.card--desc {
+    padding:2rem 0rem 0rem 0;
+}
+
+.lux-descr {
+    padding:2rem 0rem 0rem 0;
+}
+.sedan-descr {
+    padding: 2rem 0 0;
+    margin: 1rem;
+}
+button {
+    margin-top: 5rem;
+    width: 75%;
+    font-weight: 500;
+    border: 2px solid white;
+}
+
+.btn-sed:hover {
+    background-color: var(--Bright-orange);
+    color: var(--Transparent-white);
+}
+
+.btn-suv:hover {
+    background-color: var(--dark-cyan);
+    color: var(--Transparent-white);
+}
+.luxb {
+    margin-top: 7rem;
+}
+
+.btn-lux:hover {
+    background-color: var(--very);
+    color: var(--Transparent-white);
+}
+.suvb {
+    margin-top: 7rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
