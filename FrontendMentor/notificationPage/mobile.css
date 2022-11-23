@@ -115,19 +115,19 @@
 }
 
 .ph-mark {
-    background-image: url(/assets/images/avatar-mark-webber.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-mark-webber.webp);
 }
 
 .ph-angela {
-    background-image: url(/assets/images/avatar-angela-gray.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-angela-gray.webp);
 }
 
 .ph-jacob {
-    background-image: url(/assets/images/avatar-jacob-thompson.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-jacob-thompson.webp);
 }
 
 .ph-rizky {
-    background-image: url(/assets/images/avatar-rizky-hasanuddin.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-rizky-hasanuddin.webp);
 }
 
 .not-rizky p:nth-child(4) {
@@ -138,19 +138,19 @@
 }
 
 .ph-kim {
-    background-image: url(/assets/images/avatar-kimberly-smith.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-kimberly-smith.webp);
 }
 
 .ph-nath {
-    background-image: url(/assets/images/avatar-nathan-peterson.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-nathan-peterson.webp);
 }
 
 .ph-anna {
-    background-image: url(/assets/images/avatar-anna-kim.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/avatar-anna-kim.webp);
 }
 
 .pic {
-    background-image: url(/assets/images/image-chess.webp);
+    background-image: url(/FrontendMentor/notificationPage/assets/images/image-chess.webp);
     width: 40px;
     height: 40px;
     border-radius: 5px;
