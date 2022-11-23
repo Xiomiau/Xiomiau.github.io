@@ -1,0 +1,181 @@
+:root {
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsla(213, 36%, 95%, 0.836);
+--Light-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-dark-blue: hsl(224, 88%, 25%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    margin: 10px;
+}
+
+.notTitle {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+
+.notTitle p:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.notTitle p:nth-child(2) {
+    color: var(--Dark-grayish-blue);
+}
+
+.notTitle p:nth-child(2):hover {
+    color: var(--Very-dark-blue);
+    cursor: pointer;
+}
+
+
+.paraf2 {
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+}
+.redDot {
+    width: 7px;
+    height: 7px;
+    background-color: rgb(248, 74, 74);
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: -11px;
+}
+
+
+#number {
+    background-color: var(--Very-dark-blue);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.notification {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--Dark-grayish-blue);
+    box-shadow: 2px 2px 3px 1px rgb(236, 231, 231)
+}
+
+.notificactionUnread {
+    background-color: var(--Very-light-grayish-blue);
+
+}
+
+
+.photo {
+    grid-column: 1;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.noti-name, .time, .paraf2 {
+    grid-column: 2/6;
+}
+
+.noti-name {
+    font-size: 15px;
+    font-weight: 500;
+    height: fit-content;
+    grid-row: 1;
+    position: relative;
+
+}
+
+.noti-name span {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.noti-name span:hover{
+    color: var(--Very-dark-blue);
+}
+
+.ph-mark {
+    background-image: url(/assets/images/avatar-mark-webber.webp);
+}
+
+.ph-angela {
+    background-image: url(/assets/images/avatar-angela-gray.webp);
+}
+
+.ph-jacob {
+    background-image: url(/assets/images/avatar-jacob-thompson.webp);
+}
+
+.ph-rizky {
+    background-image: url(/assets/images/avatar-rizky-hasanuddin.webp);
+}
+
+.not-rizky p:nth-child(4) {
+    grid-column: 2/6;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.ph-kim {
+    background-image: url(/assets/images/avatar-kimberly-smith.webp);
+}
+
+.ph-nath {
+    background-image: url(/assets/images/avatar-nathan-peterson.webp);
+}
+
+.ph-anna {
+    background-image: url(/assets/images/avatar-anna-kim.webp);
+}
+
+.pic {
+    background-image: url(/assets/images/image-chess.webp);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-size: contain;
+    justify-self: end;
+}
+
+.not-kim .noti-name {
+    grid-column: 2/5;
+}
+
+
+@media (min-width:1281px) {
+    
+    body {
+        background-color: var(--Light-grayish-blue-2);
+    }
+    .container{
+            width: 40%;
+            padding: 20px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        
+}
+
+
