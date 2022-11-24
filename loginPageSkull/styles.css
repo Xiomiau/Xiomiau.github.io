@@ -41,7 +41,7 @@ button {
     background-color: #FFE6C9;
     height: 100vh;
     grid-column: 1/2;
-    background-image: url(/assets/img/illustration.png);
+    background-image: url(/loginPageSkull/assets/img/illustration.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
