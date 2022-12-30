@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* overflow: hidden; */
+}
+.title-1 {
+    font-size: 36px;
+    color: #525252;
+    font-weight: 700px;
+}
+
+.title-5 {
+    font-weight: 400;
+}
+
+.btn-login-google {
+    width: 420px;
+    height: 45px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+}
+
+.left {
+    background-color: #FFE6C9;
+    height: 100vh;
+    grid-column: 1/2;
+    background-image: url(/loginPageSkull/assets/img/illustration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.titles {
+    text-align: left;
+    width: fit-content;
+}
+
+.form-container {
+    width: 420px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    margin-top: 8%;
+   
+}
+
+.ico-dots {
+    width: 72px;
+    height: 72px;
+    align-self: start;
+    margin-bottom: 15%;
+}
+
+.email label, .passw label{
+    font-size: 14px;
+    color:#828282 ;
+    font-weight: 600;
+}
+
+.email input,  .passw input {
+    width: 420px;
+    height: 45px;
+    border: 1px solid #DED2D9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.check label {
+    font-size: 12px;
+}
+
+input::placeholder {
+    opacity: .4;
+}
+
+.remember-forgot-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.btn-login {
+    width: 100%;
+    height: 50px;
+    background-color: #7F265B;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 32px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #7F265B;
+    font-weight: 600;
+}
+
+.check label {
+    color: #A1A1A1;
+    font-size: 12px;
+}
+
+.check input:checked ~ .checkmark {
+    background-color: #7F265B;
+}
+
+.register-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.register-container p {
+    color: #828282;
+}
+
+.register-container a {
+    color: #7F265B;
+    font-weight: bold;
+}
+
+.signEmail {
+    text-decoration: none;
+    color:#A1A1A1 ;
+}
+
