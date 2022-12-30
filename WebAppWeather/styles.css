@@ -1,0 +1,118 @@
+:root {
+   --inputBgDay: #086883;
+   --cardBgDay:rgba(4, 97, 118, 0.5);
+   --inputBgDNight: #472922;
+   --cardBgNight:hsl(11, 35%, 60%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #472922;
+    background-image: url(/WebAppWeather/assets/img/soleado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#search {
+    border:none ;
+    border-radius: 230px;
+    width: 70%;
+    height: 40px;
+    padding: 5px 15px;
+    background-color: var(--inputBgDay);
+    color: white;
+    font-size: 20px;
+}
+
+#search:focus{
+    outline: none;
+    background-color: var(--inputBgDay);
+    /* color: white */
+
+}
+
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  
+}
+
+#weatherContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 35vh;
+    background-color: var(--cardBgDay);
+    border-radius: 20px;
+}
+
+#minMaxTemp{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+#sens-hum-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sens-hum-container div {
+    display: grid;
+    place-content: center;
+    width: 40% ;
+    height: 10vh;
+    border-radius:20px ;
+    text-align: center;
+    background-color: var(--cardBgDay);
+}
+
+#cityName {
+    font-size: 30px;
+}
+
+#cityTemp {
+    font-size: 48px;
+}
+
+#btn-search {
+    visibility: hidden;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    #weatherContainer {
+        width: 25%;
+    }
+
+    #form {
+        width:30%;
+    }
+
+    #sens-hum-container div {
+        width: 10%;
+    }
+}
