@@ -235,6 +235,7 @@ color: rgba(255, 103, 235, 0.795);
     }
     .titleWelcome {
         font-size: 25px;
+        color: wheat;
     }
 
     .mediaLeft .icons img{
@@ -247,6 +248,17 @@ color: rgba(255, 103, 235, 0.795);
 
     img {
         width: 30%;
+    }
+
+    a {
+        
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    div a {
+        display: flex;
     }
     
 }
