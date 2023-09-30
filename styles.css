@@ -259,6 +259,11 @@ color: rgba(255, 103, 235, 0.795);
 
     div a {
         display: flex;
+        justify-content: center;
+    }
+
+    ul {
+        display: flex;
     }
     
 }
