@@ -26,6 +26,10 @@ body {
     background-position: center;
 }
 
+.welcome-descr {
+    font-size: 13px;
+}
+
 #search {
     border:none ;
     border-radius: 230px;
