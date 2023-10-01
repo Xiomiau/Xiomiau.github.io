@@ -232,10 +232,17 @@ color: rgba(255, 103, 235, 0.795);
         box-sizing: border-box;
         background-color: black;
         color: whitesmoke;
+        font-family: 'Roboto Flex', sans-serif;
     }
     .titleWelcome {
-        font-size: 25px;
-        color: wheat;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+
+    .welcome-descr p {
+        
+        padding: 15px;
     }
 
     .mediaLeft .icons img{
@@ -250,11 +257,14 @@ color: rgba(255, 103, 235, 0.795);
         width: 30%;
     }
 
-    a {
-        
+    a {    
         color: white;
         text-decoration: none;
         margin: 10px;
+    }
+
+    a:hover {
+        color: peachpuff;
     }
 
     div a {
@@ -262,8 +272,15 @@ color: rgba(255, 103, 235, 0.795);
         justify-content: center;
     }
 
-    ul {
-        display: flex;
-    }
+  .CursosContainer, .frontend1, .frontend2  {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .mediaLeft ul {
+    display: flex;
+    border: 1px solid green;
+  }
     
 }
