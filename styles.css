@@ -279,8 +279,11 @@ color: rgba(255, 103, 235, 0.795);
   }
 
   .mediaLeft ul {
-    display: flex;
-    border: 1px solid green;
+    display: none;
+  }
+
+  .mediaLeft img {
+    width: 50%;
   }
     
 }
